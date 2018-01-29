@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/GameApp.dir/main.cpp.o  -o GameApp GameCore/libGameCoreLibd.a 

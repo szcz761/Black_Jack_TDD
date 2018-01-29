@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/DeckLoaderTest.dir/TextDeackLoaderTest.cpp.o  -o DeckLoaderTest ../../lib/googlemock/libgmockd.a ../../lib/googlemock/libgmock_maind.a ../libDeckLoaderd.a -pthread 

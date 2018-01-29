@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="GameApp"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\DeckLoader\;CMake Files\DeckLoader\test\;CMake Files\lib\;CMake Files\lib\googlemock\;CMake Files\lib\googlemock\cmake\;CMake Files\lib\googletest\;CMake Files\lib\googletest\cmake\;CMake Files\GameCore\;CMake Files\GameCore\test\;CMake Files\GameCore\SafePlayerTests\;CMake Files\GameCore\MyPlayerTests\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/szymon/modernCppTddWorkshop/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/szymon/modernCppTddWorkshop/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/szymon/modernCppTddWorkshop/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/szymon/modernCppTddWorkshop/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/szymon/modernCppTddWorkshop/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/szymon/modernCppTddWorkshop/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/szymon/modernCppTddWorkshop/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GameApp">
+				<Option output="/home/szymon/modernCppTddWorkshop/cmake-build-debug/GameApp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/szymon/modernCppTddWorkshop/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/Makefile&quot;  VERBOSE=1 GameApp"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GameApp/fast">
+				<Option output="/home/szymon/modernCppTddWorkshop/cmake-build-debug/GameApp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/szymon/modernCppTddWorkshop/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/Makefile&quot;  VERBOSE=1 GameApp/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main">
+				<Option output="/home/szymon/modernCppTddWorkshop/cmake-build-debug/lib/googlemock/libgmock_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/szymon/modernCppTddWorkshop/cmake-build-debug/lib/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/szymon/modernCppTddWorkshop/lib/googlemock/include"/>
+					<Add directory="/home/szymon/modernCppTddWorkshop/lib/googlemock"/>
+					<Add directory="/home/szymon/modernCppTddWorkshop/lib/googletest/include"/>
+					<Add directory="/home/szymon/modernCppTddWorkshop/lib/googletest"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/lib/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/lib/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main/fast">
+				<Option output="/home/szymon/modernCppTddWorkshop/cmake-build-debug/lib/googlemock/libgmock_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/szymon/modernCppTddWorkshop/cmake-build-debug/lib/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/szymon/modernCppTddWorkshop/lib/googlemock/include"/>
+					<Add directory="/home/szymon/modernCppTddWorkshop/lib/googlemock"/>
+					<Add directory="/home/szymon/modernCppTddWorkshop/lib/googletest/include"/>
+					<Add directory="/home/szymon/modernCppTddWorkshop/lib/googletest"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/lib/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/lib/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock">
+				<Option output="/home/szymon/modernCppTddWorkshop/cmake-build-debug/lib/googlemock/libgmockd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/szymon/modernCppTddWorkshop/cmake-build-debug/lib/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/szymon/modernCppTddWorkshop/lib/googlemock/include"/>
+					<Add directory="/home/szymon/modernCppTddWorkshop/lib/googlemock"/>
+					<Add directory="/home/szymon/modernCppTddWorkshop/lib/googletest/include"/>
+					<Add directory="/home/szymon/modernCppTddWorkshop/lib/googletest"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/lib/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/lib/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock/fast">
+				<Option output="/home/szymon/modernCppTddWorkshop/cmake-build-debug/lib/googlemock/libgmockd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/szymon/modernCppTddWorkshop/cmake-build-debug/lib/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/szymon/modernCppTddWorkshop/lib/googlemock/include"/>
+					<Add directory="/home/szymon/modernCppTddWorkshop/lib/googlemock"/>
+					<Add directory="/home/szymon/modernCppTddWorkshop/lib/googletest/include"/>
+					<Add directory="/home/szymon/modernCppTddWorkshop/lib/googletest"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/lib/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/lib/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="/home/szymon/modernCppTddWorkshop/cmake-build-debug/lib/googlemock/gtest/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/szymon/modernCppTddWorkshop/cmake-build-debug/lib/googlemock/gtest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/szymon/modernCppTddWorkshop/lib/googletest/include"/>
+					<Add directory="/home/szymon/modernCppTddWorkshop/lib/googletest"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/lib/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/lib/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/lib/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/lib/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="/home/szymon/modernCppTddWorkshop/cmake-build-debug/lib/googlemock/gtest/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/szymon/modernCppTddWorkshop/cmake-build-debug/lib/googlemock/gtest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/szymon/modernCppTddWorkshop/lib/googletest/include"/>
+					<Add directory="/home/szymon/modernCppTddWorkshop/lib/googletest"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/lib/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/lib/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/lib/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/lib/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="/home/szymon/modernCppTddWorkshop/cmake-build-debug/lib/googlemock/gtest/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/szymon/modernCppTddWorkshop/cmake-build-debug/lib/googlemock/gtest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/szymon/modernCppTddWorkshop/lib/googletest/include"/>
+					<Add directory="/home/szymon/modernCppTddWorkshop/lib/googletest"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/lib/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/lib/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/lib/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/lib/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="/home/szymon/modernCppTddWorkshop/cmake-build-debug/lib/googlemock/gtest/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/szymon/modernCppTddWorkshop/cmake-build-debug/lib/googlemock/gtest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/szymon/modernCppTddWorkshop/lib/googletest/include"/>
+					<Add directory="/home/szymon/modernCppTddWorkshop/lib/googletest"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/lib/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/lib/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/lib/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/lib/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DeckLoader">
+				<Option output="/home/szymon/modernCppTddWorkshop/cmake-build-debug/DeckLoader/libDeckLoaderd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/szymon/modernCppTddWorkshop/cmake-build-debug/DeckLoader"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/DeckLoader/Makefile&quot;  VERBOSE=1 DeckLoader"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/DeckLoader/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/DeckLoader/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/DeckLoader/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DeckLoader/fast">
+				<Option output="/home/szymon/modernCppTddWorkshop/cmake-build-debug/DeckLoader/libDeckLoaderd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/szymon/modernCppTddWorkshop/cmake-build-debug/DeckLoader"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/DeckLoader/Makefile&quot;  VERBOSE=1 DeckLoader/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/DeckLoader/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/DeckLoader/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/DeckLoader/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DeckLoaderTest">
+				<Option output="/home/szymon/modernCppTddWorkshop/cmake-build-debug/DeckLoader/test/DeckLoaderTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/szymon/modernCppTddWorkshop/cmake-build-debug/DeckLoader/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/szymon/modernCppTddWorkshop/lib/googlemock/include"/>
+					<Add directory="/home/szymon/modernCppTddWorkshop/lib/googletest/include"/>
+					<Add directory="/home/szymon/modernCppTddWorkshop/DeckLoader"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/DeckLoader/test/Makefile&quot;  VERBOSE=1 DeckLoaderTest"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/DeckLoader/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/DeckLoader/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/DeckLoader/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DeckLoaderTest/fast">
+				<Option output="/home/szymon/modernCppTddWorkshop/cmake-build-debug/DeckLoader/test/DeckLoaderTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/szymon/modernCppTddWorkshop/cmake-build-debug/DeckLoader/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/szymon/modernCppTddWorkshop/lib/googlemock/include"/>
+					<Add directory="/home/szymon/modernCppTddWorkshop/lib/googletest/include"/>
+					<Add directory="/home/szymon/modernCppTddWorkshop/DeckLoader"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/DeckLoader/test/Makefile&quot;  VERBOSE=1 DeckLoaderTest/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/DeckLoader/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/DeckLoader/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/DeckLoader/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GameCoreLib">
+				<Option output="/home/szymon/modernCppTddWorkshop/cmake-build-debug/GameCore/libGameCoreLibd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/szymon/modernCppTddWorkshop/cmake-build-debug/GameCore"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/szymon/modernCppTddWorkshop/DeckLoader"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/GameCore/Makefile&quot;  VERBOSE=1 GameCoreLib"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/GameCore/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/GameCore/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/GameCore/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GameCoreLib/fast">
+				<Option output="/home/szymon/modernCppTddWorkshop/cmake-build-debug/GameCore/libGameCoreLibd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/szymon/modernCppTddWorkshop/cmake-build-debug/GameCore"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/szymon/modernCppTddWorkshop/DeckLoader"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/GameCore/Makefile&quot;  VERBOSE=1 GameCoreLib/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/GameCore/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/GameCore/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/GameCore/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RUN_GameCoreTest">
+				<Option working_dir="/home/szymon/modernCppTddWorkshop/cmake-build-debug/GameCore/test"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/GameCore/test/Makefile&quot;  VERBOSE=1 RUN_GameCoreTest"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/GameCore/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/GameCore/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/GameCore/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GameCoreTest">
+				<Option output="/home/szymon/modernCppTddWorkshop/cmake-build-debug/GameCore/test/GameCoreTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/szymon/modernCppTddWorkshop/cmake-build-debug/GameCore/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/szymon/modernCppTddWorkshop/lib/googlemock/include"/>
+					<Add directory="/home/szymon/modernCppTddWorkshop/lib/googletest/include"/>
+					<Add directory="/home/szymon/modernCppTddWorkshop/DeckLoader"/>
+					<Add directory="/home/szymon/modernCppTddWorkshop/GameCore"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/GameCore/test/Makefile&quot;  VERBOSE=1 GameCoreTest"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/GameCore/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/GameCore/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/GameCore/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GameCoreTest/fast">
+				<Option output="/home/szymon/modernCppTddWorkshop/cmake-build-debug/GameCore/test/GameCoreTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/szymon/modernCppTddWorkshop/cmake-build-debug/GameCore/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/szymon/modernCppTddWorkshop/lib/googlemock/include"/>
+					<Add directory="/home/szymon/modernCppTddWorkshop/lib/googletest/include"/>
+					<Add directory="/home/szymon/modernCppTddWorkshop/DeckLoader"/>
+					<Add directory="/home/szymon/modernCppTddWorkshop/GameCore"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/GameCore/test/Makefile&quot;  VERBOSE=1 GameCoreTest/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/GameCore/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/GameCore/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/GameCore/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SafePlayerTest">
+				<Option output="/home/szymon/modernCppTddWorkshop/cmake-build-debug/GameCore/SafePlayerTests/SafePlayerTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/szymon/modernCppTddWorkshop/cmake-build-debug/GameCore/SafePlayerTests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/szymon/modernCppTddWorkshop/lib/googlemock/include"/>
+					<Add directory="/home/szymon/modernCppTddWorkshop/lib/googletest/include"/>
+					<Add directory="/home/szymon/modernCppTddWorkshop/DeckLoader"/>
+					<Add directory="/home/szymon/modernCppTddWorkshop/GameCore"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/GameCore/SafePlayerTests/Makefile&quot;  VERBOSE=1 SafePlayerTest"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/GameCore/SafePlayerTests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/GameCore/SafePlayerTests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/GameCore/SafePlayerTests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SafePlayerTest/fast">
+				<Option output="/home/szymon/modernCppTddWorkshop/cmake-build-debug/GameCore/SafePlayerTests/SafePlayerTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/szymon/modernCppTddWorkshop/cmake-build-debug/GameCore/SafePlayerTests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/szymon/modernCppTddWorkshop/lib/googlemock/include"/>
+					<Add directory="/home/szymon/modernCppTddWorkshop/lib/googletest/include"/>
+					<Add directory="/home/szymon/modernCppTddWorkshop/DeckLoader"/>
+					<Add directory="/home/szymon/modernCppTddWorkshop/GameCore"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/GameCore/SafePlayerTests/Makefile&quot;  VERBOSE=1 SafePlayerTest/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/GameCore/SafePlayerTests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/GameCore/SafePlayerTests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/GameCore/SafePlayerTests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MyPlayerTests">
+				<Option output="/home/szymon/modernCppTddWorkshop/cmake-build-debug/GameCore/MyPlayerTests/MyPlayerTests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/szymon/modernCppTddWorkshop/cmake-build-debug/GameCore/MyPlayerTests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/szymon/modernCppTddWorkshop/lib/googlemock/include"/>
+					<Add directory="/home/szymon/modernCppTddWorkshop/lib/googletest/include"/>
+					<Add directory="/home/szymon/modernCppTddWorkshop/DeckLoader"/>
+					<Add directory="/home/szymon/modernCppTddWorkshop/GameCore"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/GameCore/MyPlayerTests/Makefile&quot;  VERBOSE=1 MyPlayerTests"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/GameCore/MyPlayerTests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/GameCore/MyPlayerTests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/GameCore/MyPlayerTests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MyPlayerTests/fast">
+				<Option output="/home/szymon/modernCppTddWorkshop/cmake-build-debug/GameCore/MyPlayerTests/MyPlayerTests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/szymon/modernCppTddWorkshop/cmake-build-debug/GameCore/MyPlayerTests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/szymon/modernCppTddWorkshop/lib/googlemock/include"/>
+					<Add directory="/home/szymon/modernCppTddWorkshop/lib/googletest/include"/>
+					<Add directory="/home/szymon/modernCppTddWorkshop/DeckLoader"/>
+					<Add directory="/home/szymon/modernCppTddWorkshop/GameCore"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/GameCore/MyPlayerTests/Makefile&quot;  VERBOSE=1 MyPlayerTests/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/GameCore/MyPlayerTests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/GameCore/MyPlayerTests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/szymon/modernCppTddWorkshop/cmake-build-debug/GameCore/MyPlayerTests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/szymon/modernCppTddWorkshop/DeckLoader/TextDeckLoader.cpp">
+			<Option target="DeckLoader"/>
+		</Unit>
+		<Unit filename="/home/szymon/modernCppTddWorkshop/DeckLoader/TextDeckLoader.h">
+			<Option target="DeckLoader"/>
+		</Unit>
+		<Unit filename="/home/szymon/modernCppTddWorkshop/DeckLoader/test/TextDeackLoaderTest.cpp">
+			<Option target="DeckLoaderTest"/>
+		</Unit>
+		<Unit filename="/home/szymon/modernCppTddWorkshop/GameCore/BlackJackGame.cpp">
+			<Option target="GameCoreLib"/>
+		</Unit>
+		<Unit filename="/home/szymon/modernCppTddWorkshop/GameCore/BlackJackGame.h">
+			<Option target="GameCoreLib"/>
+		</Unit>
+		<Unit filename="/home/szymon/modernCppTddWorkshop/GameCore/MyPlayer.cpp">
+			<Option target="GameCoreLib"/>
+		</Unit>
+		<Unit filename="/home/szymon/modernCppTddWorkshop/GameCore/MyPlayer.h">
+			<Option target="GameCoreLib"/>
+		</Unit>
+		<Unit filename="/home/szymon/modernCppTddWorkshop/GameCore/MyPlayerTests/MyPlayerTests.cpp">
+			<Option target="MyPlayerTests"/>
+		</Unit>
+		<Unit filename="/home/szymon/modernCppTddWorkshop/GameCore/SafePlayer.cpp">
+			<Option target="GameCoreLib"/>
+		</Unit>
+		<Unit filename="/home/szymon/modernCppTddWorkshop/GameCore/SafePlayer.h">
+			<Option target="GameCoreLib"/>
+		</Unit>
+		<Unit filename="/home/szymon/modernCppTddWorkshop/GameCore/SafePlayerTests/SafePlayerTests.cpp">
+			<Option target="SafePlayerTest"/>
+		</Unit>
+		<Unit filename="/home/szymon/modernCppTddWorkshop/GameCore/test/BlackJackGameTest.cpp">
+			<Option target="GameCoreTest"/>
+		</Unit>
+		<Unit filename="/home/szymon/modernCppTddWorkshop/GameCore/test/mock/PlayerMock.h">
+			<Option target="GameCoreTest"/>
+		</Unit>
+		<Unit filename="/home/szymon/modernCppTddWorkshop/lib/googlemock/src/gmock-all.cc">
+			<Option target="gmock_main"/>
+			<Option target="gmock"/>
+		</Unit>
+		<Unit filename="/home/szymon/modernCppTddWorkshop/lib/googlemock/src/gmock_main.cc">
+			<Option target="gmock_main"/>
+		</Unit>
+		<Unit filename="/home/szymon/modernCppTddWorkshop/lib/googletest/src/gtest-all.cc">
+			<Option target="gmock_main"/>
+			<Option target="gmock"/>
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="/home/szymon/modernCppTddWorkshop/lib/googletest/src/gtest_main.cc">
+			<Option target="gtest_main"/>
+		</Unit>
+		<Unit filename="/home/szymon/modernCppTddWorkshop/main.cpp">
+			<Option target="GameApp"/>
+		</Unit>
+		<Unit filename="/home/szymon/modernCppTddWorkshop/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/szymon/modernCppTddWorkshop/DeckLoader/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\DeckLoader\"/>
+		</Unit>
+		<Unit filename="/home/szymon/modernCppTddWorkshop/DeckLoader/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\DeckLoader\"/>
+		</Unit>
+		<Unit filename="/home/szymon/modernCppTddWorkshop/DeckLoader/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\DeckLoader\test\"/>
+		</Unit>
+		<Unit filename="/home/szymon/modernCppTddWorkshop/DeckLoader/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\DeckLoader\test\"/>
+		</Unit>
+		<Unit filename="/home/szymon/modernCppTddWorkshop/DeckLoader/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\DeckLoader\test\"/>
+		</Unit>
+		<Unit filename="/home/szymon/modernCppTddWorkshop/lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\"/>
+		</Unit>
+		<Unit filename="/home/szymon/modernCppTddWorkshop/lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\"/>
+		</Unit>
+		<Unit filename="/home/szymon/modernCppTddWorkshop/lib/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\googlemock\"/>
+		</Unit>
+		<Unit filename="/home/szymon/modernCppTddWorkshop/lib/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\googlemock\"/>
+		</Unit>
+		<Unit filename="/home/szymon/modernCppTddWorkshop/lib/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\googlemock\"/>
+		</Unit>
+		<Unit filename="/home/szymon/modernCppTddWorkshop/lib/googlemock/cmake/gmock.pc.in">
+			<Option virtualFolder="CMake Files\lib\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/home/szymon/modernCppTddWorkshop/lib/googlemock/cmake/gmock_main.pc.in">
+			<Option virtualFolder="CMake Files\lib\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/home/szymon/modernCppTddWorkshop/lib/googlemock/cmake/gmock.pc.in">
+			<Option virtualFolder="CMake Files\lib\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/home/szymon/modernCppTddWorkshop/lib/googlemock/cmake/gmock_main.pc.in">
+			<Option virtualFolder="CMake Files\lib\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/home/szymon/modernCppTddWorkshop/lib/googlemock/cmake/gmock.pc.in">
+			<Option virtualFolder="CMake Files\lib\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/home/szymon/modernCppTddWorkshop/lib/googlemock/cmake/gmock_main.pc.in">
+			<Option virtualFolder="CMake Files\lib\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/home/szymon/modernCppTddWorkshop/lib/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\googletest\"/>
+		</Unit>
+		<Unit filename="/home/szymon/modernCppTddWorkshop/lib/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\googletest\"/>
+		</Unit>
+		<Unit filename="/home/szymon/modernCppTddWorkshop/lib/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\googletest\"/>
+		</Unit>
+		<Unit filename="/home/szymon/modernCppTddWorkshop/lib/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\googletest\"/>
+		</Unit>
+		<Unit filename="/home/szymon/modernCppTddWorkshop/lib/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\lib\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/szymon/modernCppTddWorkshop/lib/googletest/cmake/gtest.pc.in">
+			<Option virtualFolder="CMake Files\lib\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/szymon/modernCppTddWorkshop/lib/googletest/cmake/gtest_main.pc.in">
+			<Option virtualFolder="CMake Files\lib\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/szymon/modernCppTddWorkshop/lib/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\lib\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/szymon/modernCppTddWorkshop/lib/googletest/cmake/gtest.pc.in">
+			<Option virtualFolder="CMake Files\lib\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/szymon/modernCppTddWorkshop/lib/googletest/cmake/gtest_main.pc.in">
+			<Option virtualFolder="CMake Files\lib\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/szymon/modernCppTddWorkshop/lib/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\lib\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/szymon/modernCppTddWorkshop/lib/googletest/cmake/gtest.pc.in">
+			<Option virtualFolder="CMake Files\lib\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/szymon/modernCppTddWorkshop/lib/googletest/cmake/gtest_main.pc.in">
+			<Option virtualFolder="CMake Files\lib\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/szymon/modernCppTddWorkshop/lib/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\lib\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/szymon/modernCppTddWorkshop/lib/googletest/cmake/gtest.pc.in">
+			<Option virtualFolder="CMake Files\lib\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/szymon/modernCppTddWorkshop/lib/googletest/cmake/gtest_main.pc.in">
+			<Option virtualFolder="CMake Files\lib\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/szymon/modernCppTddWorkshop/GameCore/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\GameCore\"/>
+		</Unit>
+		<Unit filename="/home/szymon/modernCppTddWorkshop/GameCore/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\GameCore\"/>
+		</Unit>
+		<Unit filename="/home/szymon/modernCppTddWorkshop/GameCore/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\GameCore\test\"/>
+		</Unit>
+		<Unit filename="/home/szymon/modernCppTddWorkshop/GameCore/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\GameCore\test\"/>
+		</Unit>
+		<Unit filename="/home/szymon/modernCppTddWorkshop/GameCore/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\GameCore\test\"/>
+		</Unit>
+		<Unit filename="/home/szymon/modernCppTddWorkshop/GameCore/SafePlayerTests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\GameCore\SafePlayerTests\"/>
+		</Unit>
+		<Unit filename="/home/szymon/modernCppTddWorkshop/GameCore/SafePlayerTests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\GameCore\SafePlayerTests\"/>
+		</Unit>
+		<Unit filename="/home/szymon/modernCppTddWorkshop/GameCore/SafePlayerTests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\GameCore\SafePlayerTests\"/>
+		</Unit>
+		<Unit filename="/home/szymon/modernCppTddWorkshop/GameCore/MyPlayerTests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\GameCore\MyPlayerTests\"/>
+		</Unit>
+		<Unit filename="/home/szymon/modernCppTddWorkshop/GameCore/MyPlayerTests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\GameCore\MyPlayerTests\"/>
+		</Unit>
+		<Unit filename="/home/szymon/modernCppTddWorkshop/GameCore/MyPlayerTests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\GameCore\MyPlayerTests\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

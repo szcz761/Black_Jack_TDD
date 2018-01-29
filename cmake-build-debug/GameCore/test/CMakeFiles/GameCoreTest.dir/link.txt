@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/GameCoreTest.dir/BlackJackGameTest.cpp.o  -o GameCoreTest ../../lib/googlemock/libgmockd.a ../../lib/googlemock/libgmock_maind.a ../libGameCoreLibd.a -pthread 

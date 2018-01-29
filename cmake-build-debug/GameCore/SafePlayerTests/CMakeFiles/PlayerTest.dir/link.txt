@@ -1,0 +1,1 @@
+/usr/bin/c++  -g     -o PlayerTest ../../lib/googlemock/libgmockd.a ../../lib/googlemock/libgmock_maind.a -lPlayerLib -pthread 

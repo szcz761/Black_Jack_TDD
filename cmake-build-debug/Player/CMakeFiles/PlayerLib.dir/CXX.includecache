@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/szymon/modernCppTddWorkshop/DeckLoader/card.h
+
+/home/szymon/modernCppTddWorkshop/GameCore/IPlayer.h
+../DeckLoader/card.h
+/home/szymon/modernCppTddWorkshop/DeckLoader/card.h
+
+/home/szymon/modernCppTddWorkshop/Player/Player.cpp
+stdexcept
+-
+Player.h
+/home/szymon/modernCppTddWorkshop/Player/Player.h
+
+/home/szymon/modernCppTddWorkshop/Player/Player.h
+../GameCore/IPlayer.h
+/home/szymon/modernCppTddWorkshop/GameCore/IPlayer.h
+../DeckLoader/card.h
+/home/szymon/modernCppTddWorkshop/DeckLoader/card.h
+

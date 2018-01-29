@@ -1,0 +1,2 @@
+/usr/bin/ar qc libGameCoreLibd.a  CMakeFiles/GameCoreLib.dir/BlackJackGame.cpp.o CMakeFiles/GameCoreLib.dir/MyPlayer.cpp.o CMakeFiles/GameCoreLib.dir/SafePlayer.cpp.o
+/usr/bin/ranlib libGameCoreLibd.a

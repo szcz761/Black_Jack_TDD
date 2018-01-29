@@ -1,0 +1,2 @@
+/usr/bin/ar qc libDeckLoaderd.a  CMakeFiles/DeckLoader.dir/TextDeckLoader.cpp.o
+/usr/bin/ranlib libDeckLoaderd.a

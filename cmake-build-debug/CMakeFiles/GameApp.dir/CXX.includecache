@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/szymon/modernCppTddWorkshop/GameCore/GameController.h
+memory
+-
+vector
+-
+
+/home/szymon/modernCppTddWorkshop/main.cpp
+iostream
+-
+GameCore/GameController.h
+/home/szymon/modernCppTddWorkshop/GameCore/GameController.h
+

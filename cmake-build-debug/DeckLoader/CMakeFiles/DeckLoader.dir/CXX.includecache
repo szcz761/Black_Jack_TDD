@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/szymon/modernCppTddWorkshop/DeckLoader/IDeckLoader.h
+vector
+-
+istream
+-
+card.h
+/home/szymon/modernCppTddWorkshop/DeckLoader/card.h
+
+/home/szymon/modernCppTddWorkshop/DeckLoader/TextDeckLoader.cpp
+TextDeckLoader.h
+/home/szymon/modernCppTddWorkshop/DeckLoader/TextDeckLoader.h
+algorithm
+-
+
+/home/szymon/modernCppTddWorkshop/DeckLoader/TextDeckLoader.h
+IDeckLoader.h
+/home/szymon/modernCppTddWorkshop/DeckLoader/IDeckLoader.h
+istream
+-
+
+/home/szymon/modernCppTddWorkshop/DeckLoader/card.h
+

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/SafePlayerTest.dir/SafePlayerTests.cpp.o  -o SafePlayerTest ../../lib/googlemock/libgmockd.a ../../lib/googlemock/libgmock_maind.a ../libGameCoreLibd.a -pthread 

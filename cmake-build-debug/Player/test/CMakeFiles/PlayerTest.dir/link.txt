@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/PlayerTest.dir/PlayerTests.cpp.o  -o PlayerTest ../../lib/googlemock/libgmockd.a ../../lib/googlemock/libgmock_maind.a ../libPlayerLibd.a -pthread 
